@@ -117,13 +117,13 @@
             var minutos = agora.getMinutes()
 
               if (hora < 6){
-                  window.prompt(`Boa Madrugada, agora são ${hora} horas e ${minutos} minutos.`)
+                  window.confirm(`Boa Madrugada, agora são ${hora} horas e ${minutos} minutos.`)
               }else if (hora <= 12){
-                  window.prompt(`Bom dia, agora são ${hora} horas e ${minutos} minutos.`)
+                  window.confirm(`Bom dia, agora são ${hora} horas e ${minutos} minutos.`)
               } else if (hora <= 18){
-                  window.prompt(`Boa tarde, agora são ${hora} horas e ${minutos} minutos.`)
+                  window.confirm(`Boa tarde, agora são ${hora} horas e ${minutos} minutos.`)
               } else if ( hora <= 0){
-                  window.prompt(`Boa noite, agora são ${horas} horas e ${minutos} minutos.`)
+                  window.confirm(`Boa noite, agora são ${horas} horas e ${minutos} minutos.`)
               }
               
 
